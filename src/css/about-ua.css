@@ -1,35 +1,71 @@
-.container {
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+.about_us {
+  padding-top: 80px;
+  background: linear-gradient(
+      360deg,
+      rgba(17, 19, 31, 0.8) 15.05%,
+      rgba(17, 19, 31, 0.8) 75.3%,
+      rgba(17, 19, 31, 0.8) 98.27%
+    ),
+    url('path_to_image');
 }
 
-/* Tablet  335+20+20=375 */
-@media screen and (min-width: 375px) {
+.container-about_us {
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  background: #fbfbfb;
+  border-radius: 24px 24px 0 0;
+}
+
+.about_us-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about_us-title-main {
+  padding-top: 40px;
+  max-width: 295px;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+
+.about_us-title {
+  max-width: 295px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+.about_us-item {
+  max-width: 295px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+.about_us-foto {
+  width: 100%;
+  padding: 0;
+}
+
+/* Mobile  335+20+20=375 */
+@media screen and (max-width: 375px) {
   .container {
     max-width: 375px;
   }
-
-  .about_us {
-    padding: 80px 20px;
-  }
-.about_us-title {
-  font-family: "Inter", sans-serif;
-
-  font-weight: 500;
-font-size: 28px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #1b414b;
-
-
-}
-
-
-
-
 }
 
 /* Tablet  704+32+32=768 */
@@ -43,7 +79,7 @@ color: #1b414b;
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 }
 
@@ -51,6 +87,6 @@ color: #1b414b;
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 }
