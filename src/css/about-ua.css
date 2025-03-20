@@ -1,0 +1,56 @@
+.container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet  335+20+20=375 */
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .about_us {
+    padding: 80px 20px;
+  }
+.about_us-title {
+  font-family: "Inter", sans-serif;
+
+  font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #1b414b;
+
+
+}
+
+
+
+
+}
+
+/* Tablet  704+32+32=768 */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Desktop  1180+50+50=1280    */
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
+
+/* Desktop  1340+50+50=1440    */
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
