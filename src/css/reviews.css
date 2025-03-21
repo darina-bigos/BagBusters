@@ -6,7 +6,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 25px;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .reviews-text {
   font-weight: 400;
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    margin-top: 150px;
+    margin-top: 75px;
   }
   .reviews-title {
     font-size: 48px;
