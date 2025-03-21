@@ -6,6 +6,7 @@
   height: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 30px;
 }
 .header-logo {
@@ -38,10 +39,15 @@
 .header-nav-item:focus {
   background: #1b414b;
 }
+
 .header-soc-list {
   display: flex;
   gap: 8px;
 }
 .header-soc-link-icon {
   fill: #1b414b;
+}
+.header-soc-link-icon:hover,
+.header-soc-link-icon:focus {
+  fill: #062730;
 }
