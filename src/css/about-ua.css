@@ -1,19 +1,15 @@
+/* #region  MOBILE */
+
 .about_us {
   padding-top: 80px;
-  background: linear-gradient(
-      360deg,
-      rgba(17, 19, 31, 0.8) 15.05%,
-      rgba(17, 19, 31, 0.8) 75.3%,
-      rgba(17, 19, 31, 0.8) 98.27%
-    ),
-    url('path_to_image');
+  margin: auto;
 }
 
 .container-about_us {
-  min-width: 320px;
+  min-width: 335px;
+  height: 675px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 40px;
   background: #fbfbfb;
@@ -21,17 +17,18 @@
 }
 
 .about_us-box {
+  width: 295px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  /* padding-bottom: 40px; */
 }
 
 .about_us-title-main {
-  padding-top: 40px;
-  max-width: 295px;
-
+  padding: 40px 0 0;
+  width: 295px;
   font-weight: 500;
   font-size: 30px;
   line-height: 1;
@@ -47,6 +44,7 @@
   letter-spacing: -0.02em;
   color: #1b414b;
 }
+
 .about_us-item {
   max-width: 295px;
   font-weight: 400;
@@ -56,24 +54,79 @@
   color: #040306;
   opacity: 0.4;
 }
+
 .about_us-foto {
-  width: 100%;
-  padding: 0;
+  max-width: 335px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.about_us-foto-box {
+  display: flex;
+  justify-content: center;
+
+  margin-top: -274px;
 }
 
 /* Mobile  335+20+20=375 */
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
-    max-width: 375px;
+    max-width: 320px;
   }
 }
+
+/* #endregion  MOBILE */
+
+/* #region  TABLET */
 
 /* Tablet  704+32+32=768 */
 @media screen and (min-width: 768px) {
   .container {
+    /* Для позиціювання картинки */
+    max-width: 704px;
+  }
+
+  .container-about_us {
+    gap: 50px;
+  }
+
+  .about_us-title-main {
+    padding-top: 50px;
+    width: 536px;
+    font-size: 48px;
+  }
+  .about_us-box {
+    width: 389px;
+
+    /* Для позиціювання картинки */
+    padding-bottom: 50px;
+  }
+  .about_us-title {
+    max-width: 389px;
+    font-size: 23px;
+  }
+
+  .about_us-item {
+    max-width: 389px;
+    line-height: 1.15;
+  }
+  .about_us-foto {
+    /* Для позиціювання картинки */
     max-width: 768px;
+
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .about_us-foto-box {
+    display: flex;
+    justify-content: center;
+
+    /* Для позиціювання картинки */
+    margin-top: -194px;
   }
 }
+
+/* #endregion  TABLET */
 
 /* Desktop  1180+50+50=1280    */
 @media screen and (min-width: 1158px) {
