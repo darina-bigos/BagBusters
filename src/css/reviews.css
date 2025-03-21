@@ -1,7 +1,3 @@
-.container-reviews-first {
-  width: 335px;
-  height: 207px;
-}
 .reviews-title {
   font-weight: 500;
   font-size: 28px;
@@ -9,7 +5,8 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 80px;
 }
 .reviews-text {
   font-weight: 400;
@@ -18,7 +15,10 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  justify-content: center;
+  margin-bottom: 40px;
+}
+.container-reviews {
+  margin-bottom: 80px;
 }
 .reviews-item {
   width: 335px;
@@ -57,22 +57,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-reviews-first {
-    padding-top: 150px;
-    width: 704px;
-    height: 205px;
-    margin-bottom: 75px;
+  .reviews {
+    margin-top: 150px;
   }
   .reviews-title {
     font-size: 48px;
-    margin-bottom: 25px;
+    width: 704px;
+    height: 144px;
   }
   .reviews-text {
     font-size: 14px;
-    line-height: 1, 29;
-  }
-  .container-reviews-second {
-    margin-bottom: 150px;
+    line-height: 1.29;
+    width: 571px;
+    height: 36px;
+    margin: 0 auto;
+    margin-bottom: 75px;
   }
   .block-first {
     display: block;
@@ -84,23 +83,16 @@
     gap: 32px;
     justify-content: center;
   }
-  .reviews-item {
-    width: calc((100% - 32px) / 2);
+  .container-reviews {
+    margin-bottom: 150px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .reviews {
-    width: 1180px;
-    height: 562px;
-    margin-bottom: 150px;
-  }
-  .container-reviews-first {
+  .reviews-title {
+    margin: 0 auto;
     width: 854px;
-  }
-  .container-reviews-second {
-    width: 1180px;
-    height: 282px;
+    margin-bottom: 25px;
   }
   .block-second {
     display: block;
@@ -112,21 +104,11 @@
     padding: 32px 28px;
     width: 376px;
     height: 282px;
-    width: calc((100% - 52px) / 3);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .reviews {
-    width: 1240px;
-    height: 562px;
-  }
-  .container-reviews-second {
-    width: 1240px;
-  }
-  .reviews-item {
-    padding: 32px 36px;
-    width: 392px;
-    width: calc((100% - 64px) / 3);
+  .reviews-list {
+    gap: 32px;
   }
 }
