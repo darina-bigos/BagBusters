@@ -30,9 +30,8 @@
 }
 
 .header-mobile-menu {
-  min-width: 335px;
+  width: 335px;
   height: 42px;
-  margin: 0 auto;
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
@@ -48,7 +47,6 @@
   color: #1b414b;
   padding-left: 20px;
   margin-right: 215px;
-  background-color: #fff;
 }
 
 .btn-close {
@@ -106,4 +104,10 @@
 .mobile-menu-icon-sm:hover,
 .mobile-menu-icon-sm:focus {
   fill: rgba(251, 251, 251, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
