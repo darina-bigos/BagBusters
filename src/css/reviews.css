@@ -1,6 +1,9 @@
 .reviews {
   padding-top: 40px;
   padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .reviews-title {
   font-weight: 500;
@@ -10,7 +13,6 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 25px;
-  /* padding-top: 40px; */
 }
 .reviews-text {
   font-weight: 400;
@@ -21,9 +23,6 @@
   color: #fbfbfb;
   margin-bottom: 40px;
   opacity: 0.4;
-}
-.container-reviews {
-  /* padding-bottom: 80px; */
 }
 .reviews-item {
   width: 335px;
@@ -86,9 +85,6 @@
   }
   .reviews-item {
     width: calc((100% - 32px) / 2);
-  }
-  .container-reviews {
-    /* padding-bottom: 150px; */
   }
 }
 
