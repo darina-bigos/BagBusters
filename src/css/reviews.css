@@ -19,7 +19,7 @@
   opacity: 0.4;
 }
 .container-reviews {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .reviews-item {
   width: 335px;
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    margin-top: 75px;
+    padding-top: 75px;
   }
   .reviews-title {
     font-size: 48px;
@@ -80,10 +80,10 @@
     justify-content: center;
   }
   .reviews-item {
-    width: calc(100%-32px) / 2;
+    width: calc(100% - 32px) / 2;
   }
   .container-reviews {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 
@@ -101,7 +101,7 @@
   }
   .reviews-item {
     padding: 32px 28px;
-    width: calc(100%-52px) / 3;
+    width: calc(100% - 52px) / 3;
   }
 }
 
