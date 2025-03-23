@@ -2,55 +2,43 @@
   display: flex;
   align-items: center;
   padding: 20px 20px 99px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .header {
+    width: 704px;
     padding: 32px 32px 50px;
   }
 }
 @media screen and (min-width: 1280px) {
   .header {
+    width: 1080px;
     padding: 32px 100px;
   }
 }
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 50px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1240px;
+    padding: 32px 100px;
   }
 }
 .header-content {
   background-color: #fbfbfb;
-
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  margin: 0 auto;
-  width: 335px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media only screen and (min-width: 768px) {
   .header-content {
-    width: 704px;
+    width: 768px;
     padding: 0 28px;
   }
 }
