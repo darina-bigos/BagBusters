@@ -2,6 +2,9 @@
 
 .about_us {
   padding-top: 121px;
+
+  /* Для позиціювання картинки 3-й варіант */
+  /* position: relative; */
 }
 
 .container-about_us {
@@ -24,7 +27,7 @@
   gap: 20px;
 
   /* Для позиціювання картинки */
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .about_us-title-main {
@@ -58,8 +61,7 @@
 
 .about_us-foto {
   max-width: 335px;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-radius: 24px;
 }
 
 .about_us-foto-box {
@@ -67,7 +69,17 @@
   justify-content: center;
 
   margin-top: -295px;
+
+  /* Для позиціювання картинки 2-й варіант */
+  /* transform: translate(0, -295px); */
 }
+
+/* Для позиціювання картинки 3-й варіант */
+/* .about_us-foto {
+  position: absolute;
+  top: 700px;
+  transform: translate(-50%, -50%);
+} */
 
 /* Mobile  335+20+20=375 */
 @media screen and (min-width: 320px) {
@@ -120,9 +132,6 @@
   .about_us-foto {
     /* Для позиціювання картинки */
     max-width: 768px;
-
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
   }
   .about_us-foto-box {
     display: flex;
@@ -157,7 +166,6 @@
   .about_us-title-main {
     padding: 0;
     width: 537px;
-    /* font-size: 48px; */
   }
   .about_us-box {
     width: 354px;
@@ -179,10 +187,8 @@
   .about_us-foto {
     /* Для позиціювання картинки */
     max-width: 1180px;
-
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
   }
+
   .about_us-foto-box {
     display: flex;
     justify-content: center;
@@ -233,9 +239,6 @@
   .about_us-foto {
     /* Для позиціювання картинки */
     max-width: 1340px;
-
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
   }
   .about_us-foto-box {
     display: flex;
