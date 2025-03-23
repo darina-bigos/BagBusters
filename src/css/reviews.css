@@ -25,7 +25,7 @@
   opacity: 0.4;
 }
 .reviews-item {
-  width: 335px;
+  max-width: 335px;
   border-radius: 24px;
   padding: 32px 8px;
   background-color: #fbfbfb;
@@ -84,6 +84,7 @@
     justify-content: center;
   }
   .reviews-item {
+    max-width: 336px;
     width: calc((100% - 32px) / 2);
   }
 }
@@ -109,6 +110,7 @@
 @media screen and (min-width: 1440px) {
   .reviews-item {
     padding: 32px 36px;
+    max-width: 392px;
     width: calc((100% - 64px) / 3);
   }
   .reviews-list {
