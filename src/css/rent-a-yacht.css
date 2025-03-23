@@ -152,7 +152,7 @@
 }
 @media screen and (min-width: 1440px) {
     .rent-img {
-        width: 768px;
+        min-width: 768px;
     }
     .rent-wrapper {
         margin-right: auto;
