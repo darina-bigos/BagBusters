@@ -1,10 +1,10 @@
 /* #region  MOBILE */
 
 .about_us {
-  padding-top: 121px;
-
-  /* Для позиціювання картинки 3-й варіант */
-  /* position: relative; */
+  
+  margin-top: -198px;
+  /* Для позиціювання картинки 3-й варіант
+  position: relative; */
 }
 
 .container-about_us {
@@ -95,8 +95,11 @@
 /* Tablet  704+32+32=768 */
 @media screen and (min-width: 768px) {
   .about_us {
-    padding-top: 107px;
-  }
+    margin-top: -76px;
+    }
+
+
+ 
 
   .container {
     /* Для позиціювання картинки */
@@ -151,10 +154,10 @@
   .container {
     max-width: 1180px;
   }
-
   .about_us {
-    padding-top: 90px;
-  }
+    margin-top: -44px;
+    }
+  
 
   .container-about_us {
     padding: 50px 50px 0;
