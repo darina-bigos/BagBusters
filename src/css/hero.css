@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 260px;
+  padding-top: 178px;
   padding-bottom: 302px;
   min-height: 812px;
   margin: 0 auto;
@@ -32,8 +32,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 280px;
-    padding-bottom: 282px;
+    padding-top: 168px;
+    padding-bottom: 215px;
     max-width: 786px;
   }
   body {
@@ -49,8 +49,8 @@ body {
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-top: 235px;
-    padding-bottom: 215px;
+    padding-top: 55px;
+    padding-bottom: 180px;
     max-width: 1280px;
     min-height: 800px;
   }
@@ -81,6 +81,7 @@ body {
 }
 
 .hero-title {
+  display: block;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -106,6 +107,7 @@ body {
 }
 
 .hero-text {
+  display: block;
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
