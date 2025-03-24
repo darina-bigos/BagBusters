@@ -1,6 +1,6 @@
 .hero {
-  padding-top: 260px;
-  padding-bottom: 243px;
+  padding-top: 198px;
+  padding-bottom: 302px;
   margin: 0 auto;
   max-width: 375px;
 }
@@ -31,7 +31,7 @@ body {
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 200px;
-    padding-bottom: 215px;
+    padding-bottom: 282px;
     max-width: 786px;
   }
   body {
@@ -48,7 +48,7 @@ body {
 @media screen and (min-width: 1280px) {
   .hero {
     padding-top: 155px;
-    padding-bottom: 180px;
+    padding-bottom: 215px;
     max-width: 1280px;
   }
   body {
