@@ -63,7 +63,7 @@
   }
   .reviews-title {
     font-size: 48px;
-    width: 704px;
+    max-width: 704px;
   }
   .reviews-text {
     font-size: 14px;
@@ -90,7 +90,7 @@
 @media screen and (min-width: 1280px) {
   .reviews-title {
     margin: 0 auto;
-    width: 854px;
+    max-width: 854px;
     margin-bottom: 25px;
   }
   .block-second {
