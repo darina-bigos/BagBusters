@@ -30,7 +30,7 @@
 }
 
 .header-mobile-menu {
-  width: 335px;
+  min-width: 335px;
   height: 42px;
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
