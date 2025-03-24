@@ -1,1 +1,69 @@
-rent
+<section class="rent-section">
+    <div class="container rent-container">
+        <div class="rent-wrapper">
+            <h2 class="rent-subtitle">Rent a yacht now</h2>
+            <form class="rent-form">
+                <label class="form-label">
+                    <input 
+                        class="form-input"
+                        type="text" 
+                        name="user-name"
+                        minlength="7"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                        placeholder="Full Name" 
+                        required />
+                </label>
+                <label class="form-label">
+                    <input 
+                        class="form-input"
+                        type="email" 
+                        name="user-email"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                        placeholder="Email" 
+                        required />
+                </label>
+                <label class="form-label">
+                    <input 
+                        class="form-input"
+                        type="tel" 
+                        name="user-tel" 
+                        minlength="12"
+                        pattern="^\+?[0-9]{10,15}$"
+                        placeholder="Phone number" 
+                        required />
+    </label>
+    <textarea 
+        class="form-input form-textarea-input" 
+        name="user-comment" 
+        placeholder="Comment"
+    ></textarea>
+    </label>
+    <button 
+    class="rent-btn submit-btn" 
+    type="submit">Send</button>
+    </form>
+    </div>
+    <div>
+            <picture>
+                <source 
+                    srcset="/img/rent-desktop2.jpg 1x, /img/rent-desktop2@2x.jpg 2x"
+                    media="(min-width: 1440px)">
+                <source 
+                    srcset="/img/rent-desktop1.jpg 1x, /img/rent-desktop1@2x.jpg 2x"
+                    media="(min-width: 1280px)">
+                <source 
+                    srcset="/img/rent-tablet.jpg 1x, /img/rent-tablet@2x.jpg 2x"
+                    media="(min-width: 768px)">
+                <source 
+                    srcset="/img/rent-mobile.jpg 1x, /img/rent-mobile@2x.jpg 2x" 
+                    media="(max-width: 767px)">
+                <img 
+                    src="../img/rent-desktop2.jpg" 
+                    alt="rent yacht"
+                    class="rent-img" 
+                    width="768" 
+                    height="536">
+            </picture>
+        </div>
+    </div>
+</section>
