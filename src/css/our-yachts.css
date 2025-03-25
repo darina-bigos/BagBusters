@@ -299,8 +299,8 @@
   }
   .our-yachts-list {
     gap: 32px;
-    /* margin-left: 50px; */
-    margin-right: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     margin-bottom: 62px;
   }
   .our-yachts-item {
