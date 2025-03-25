@@ -1,14 +1,12 @@
 /* #region  MOBILE */
 
 .about_us {
-  
   margin-top: -198px;
-  /* Для позиціювання картинки 3-й варіант
-  position: relative; */
 }
 
 .container-about_us {
-  min-width: 335px;
+  padding: 40px 20px 0;
+  width: 335px;
   height: 675px;
   display: flex;
   justify-content: flex-start;
@@ -25,13 +23,9 @@
   justify-content: center;
   flex-direction: column;
   gap: 20px;
-
-  /* Для позиціювання картинки */
-  /* padding-bottom: 40px; */
 }
 
 .about_us-title-main {
-  padding: 40px 0 0;
   width: 295px;
   font-weight: 500;
   font-size: 28px;
@@ -41,7 +35,7 @@
 }
 
 .about_us-title {
-  max-width: 295px;
+  width: 295px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
@@ -50,17 +44,19 @@
 }
 
 .about_us-item {
-  max-width: 295px;
+  width: 295px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.4px;
   color: #040306;
   opacity: 0.4;
+  /* Для позиціювання картинки */
+  /* padding-bottom: 40px; */
 }
 
 .about_us-foto {
-  max-width: 335px;
+  min-width: 320px;
   border-radius: 24px;
 }
 
@@ -68,23 +64,14 @@
   display: flex;
   justify-content: center;
 
+  /* Для позиціювання секції */
   margin-top: -295px;
-
-  /* Для позиціювання картинки 2-й варіант */
-  /* transform: translate(0, -295px); */
 }
-
-/* Для позиціювання картинки 3-й варіант */
-/* .about_us-foto {
-  position: absolute;
-  top: 700px;
-  transform: translate(-50%, -50%);
-} */
 
 /* Mobile  335+20+20=375 */
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 320px;
+    min-width: 320px;
   }
 }
 
@@ -96,51 +83,43 @@
 @media screen and (min-width: 768px) {
   .about_us {
     margin-top: -76px;
-    }
-
-
- 
-
-  .container {
-    /* Для позиціювання картинки */
-    max-width: 704px;
   }
 
   .container-about_us {
     gap: 50px;
+    padding: 50px 32px 0;
+    width: 704px;
   }
 
   .about_us-title-main {
-    padding-top: 50px;
     width: 536px;
     font-size: 48px;
   }
   .about_us-box {
     width: 389px;
-
-    /* Для позиціювання картинки */
-    /* padding-bottom: 50px; */
   }
   .about_us-title {
-    max-width: 389px;
+    width: 389px;
     font-size: 23px;
   }
 
   .about_us-item {
-    max-width: 389px;
+    width: 389px;
     font-size: 13px;
     line-height: 1.15;
     letter-spacing: 0.2px;
+
+    /* Для позиціювання картинки */
+    /* padding-bottom: 50px; */
   }
   .about_us-foto {
-    /* Для позиціювання картинки */
-    max-width: 768px;
+    width: 704px;
   }
   .about_us-foto-box {
     display: flex;
     justify-content: center;
 
-    /* Для позиціювання картинки */
+    /* Для позиціювання секції */
     margin-top: -194px;
   }
 }
@@ -151,16 +130,13 @@
 
 /* Desktop  1180+50+50=1280    */
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1180px;
-  }
   .about_us {
     margin-top: -44px;
-    }
-  
+  }
 
   .container-about_us {
     padding: 50px 50px 0;
+    width: 1180px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -172,32 +148,34 @@
   }
   .about_us-box {
     width: 354px;
-
-    /* Для позиціювання картинки */
-    /* padding-bottom: 100px; */
   }
   .about_us-title {
+    width: 354px;
     font-weight: 400;
     font-size: 23px;
     line-height: 1;
     letter-spacing: 0.5px;
+
     color: #1b414b;
   }
 
   .about_us-item {
+    width: 354px;
     letter-spacing: 0.3px;
+
+    /* Для позиціювання картинки */
+    /* padding-bottom: 100px; */
   }
   .about_us-foto {
-    /* Для позиціювання картинки */
-    max-width: 1180px;
+    width: 1180px;
   }
 
   .about_us-foto-box {
     display: flex;
     justify-content: center;
 
-    /* Для позиціювання картинки */
-    margin-top: -315px;
+    /* Для позиціювання секції */
+    margin-top: -314px;
   }
 }
 
@@ -208,8 +186,8 @@
 /* Desktop  1340+50+50=1440    */
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1340px;
+  .container-about_us {
+    width: 1340px;
   }
 
   .about_us-title-main {
@@ -219,14 +197,10 @@
 
   .about_us-box {
     width: 404px;
-
-    /* Для позиціювання картинки */
-    /* padding-bottom: 100px; */
   }
 
   .about_us-title {
-    max-width: 404px;
-
+    width: 404px;
     font-weight: 400;
     font-size: 23px;
     line-height: 1;
@@ -235,20 +209,19 @@
   }
 
   .about_us-item {
-    max-width: 404px;
+    width: 404px;
     letter-spacing: 0.2px;
   }
 
   .about_us-foto {
-    /* Для позиціювання картинки */
-    max-width: 1340px;
+    width: 1340px;
   }
   .about_us-foto-box {
     display: flex;
     justify-content: center;
 
-    /* Для позиціювання картинки */
-    margin-top: -340px;
+    /* Для позиціювання секції */
+    margin-top: -338px;
   }
 }
 
