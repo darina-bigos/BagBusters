@@ -1,3 +1,5 @@
+.container {
+}
 .our-yachts-title {
   font-weight: 500;
   font-size: 28px;
@@ -15,22 +17,24 @@
 }
 .our-yachts-list {
   display: flex;
-  justify-content: center;
   margin-bottom: 40px;
 }
+
 .our-yachts-item {
+  margin: 0 auto;
   background-color: #fbfbfb;
   border-radius: 24px;
-  max-width: 336px;
+  width: 335px;
 }
+
 .two,
 .three {
   display: none;
 }
 
 .our-yachts-image {
-  padding: 16px 16px 32px 16px;
-  margin: 0 auto;
+  display: block;
+  margin: 16px 16px 32px 16px;
 }
 .name-cont {
   position: relative;
@@ -131,6 +135,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 768px) {
   .our-yachts-title {
@@ -146,9 +151,9 @@
     display: block;
   }
   .name-cont {
-    max-width: 272px;
     gap: 112px;
   }
+
   .name-cont-two {
     position: relative;
     display: flex;
@@ -159,16 +164,28 @@
     margin-left: 32px;
     margin-right: 32px;
   }
+  .name-cont-two::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -16px;
+    position: absolute;
+    background-color: rgba(4, 3, 6, 0.1);
+  }
   .our-yachts-list {
     flex-direction: row;
     gap: 32px;
-
     margin-bottom: 50px;
   }
   .our-yachts-item {
     display: flex;
     flex-wrap: wrap;
+
+    width: calc((100% - 32px) / 2);
+    min-width: 336px;
   }
+
   .three {
     display: none;
   }
@@ -213,28 +230,23 @@
   }
   .our-yachts-list {
     gap: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
+
   .our-yachts-item {
     display: flex;
-  }
-  .our-yachts-item {
-    max-width: 377px;
+    min-width: 377px;
+    width: calc((100% - 50px) / 3);
   }
   .yacht-info-cont {
     gap: 145px;
   }
   .name-cont {
-    max-width: 313px;
     gap: 153px;
   }
   .name-cont-two {
-    max-width: 313px;
     gap: 62px;
   }
   .name-cont-three {
-    max-width: 313px;
     position: relative;
     display: flex;
     align-items: center;
@@ -243,6 +255,15 @@
     gap: 118px;
     margin-left: 32px;
     margin-right: 32px;
+  }
+  .name-cont-three::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -16px;
+    position: absolute;
+    background-color: rgba(4, 3, 6, 0.1);
   }
   .link {
     margin-bottom: 65px;
@@ -262,8 +283,26 @@
   }
   .our-yachts-list {
     gap: 32px;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 62px;
+  }
+  .our-yachts-item {
+    min-width: 392px;
+    width: calc((100% - 64px) / 3);
+  }
+  .name-cont {
+    gap: 168px;
+  }
+  .name-cont-two {
+    gap: 80px;
+  }
+  .name-cont-three {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 133px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
 }
