@@ -105,9 +105,11 @@
         flex-direction: row;
     }
 
-    .advantages-info {
-        display: flex;
-    }
+        .advantages-info {
+            display: flex;
+            gap: 32px;
+            margin: 0 -50px;
+        }
 
     .advantages-list {
         gap: 44px;
