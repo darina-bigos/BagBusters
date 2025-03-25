@@ -1,3 +1,9 @@
+.hero {
+  padding-top: 198px;
+  padding-bottom: 302px;
+  margin: 0 auto;
+  max-width: 375px;
+}
 body {
   background-image: url('/img/hero/hero-mob.jpg'),
     linear-gradient(
