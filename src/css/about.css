@@ -6,7 +6,7 @@
 
 .container-about_us {
   padding: 40px 20px 0;
-  width: 335px;
+  max-width: 335px;
   height: 675px;
   display: flex;
   justify-content: flex-start;
@@ -88,7 +88,7 @@
   .container-about_us {
     gap: 50px;
     padding: 50px 32px 0;
-    width: 704px;
+    max-width: 704px;
   }
 
   .about_us-title-main {
@@ -136,7 +136,7 @@
 
   .container-about_us {
     padding: 50px 50px 0;
-    width: 1180px;
+    max-width: 1180px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -187,7 +187,7 @@
 
 @media screen and (min-width: 1440px) {
   .container-about_us {
-    width: 1340px;
+    max-width: 1340px;
   }
 
   .about_us-title-main {

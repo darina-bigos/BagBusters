@@ -31,7 +31,7 @@
 }
 
 .header-mobile-menu {
-  /* min-width: 335px; */
+  max-width: 335px;
   height: 42px;
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
@@ -47,7 +47,7 @@
   letter-spacing: -0.03em;
   color: #1b414b;
   padding-left: 20px;
-  margin-right: 215px;
+  margin-right: 180px;
 }
 
 .btn-close {
