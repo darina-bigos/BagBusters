@@ -108,7 +108,7 @@
         .advantages-info {
             display: flex;
             gap: 32px;
-            margin: 0 -50px;
+            margin: 0 50px;
         }
 
     .advantages-list {
